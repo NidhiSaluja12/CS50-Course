@@ -36,4 +36,16 @@ when client sends a request to the web server for example sends request for a pi
 
 Summary : Client requests the web server , web server responds to client's request priortising the conditions of packet along with IP Address, Port number, and serial number written on it.
 
- 
+HTTP (Hyper Text Transfer Protocol) : appears in the beginning of URL; HTTP governs what is inside the envelope while TCP/IP governs what is outside the envelope.
+HTTP supports two words: get, post
+
+URL : Uniform Resource Locator  (https://www.example.com)
+
+https: Hyper Text Transfer Protocol Secured
+https denotes that the content of the packet is encrypted.
+Get/Http/1.1 (1.1 is the version of Http; 1.1 is most common and in addition to 1.2 , 1.3 also there)
+Host: www.example.com
+
+https://www.example.com/index.html : index.html is a file name.
+
+
