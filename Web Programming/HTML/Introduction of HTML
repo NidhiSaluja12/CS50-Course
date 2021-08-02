@@ -1,0 +1,20 @@
+In programming, basically we learn command line programing only, textual format.
+In web programming , we learn graphical format.
+Web programming technologies include: HTML(Hyper Text Markup Language), CSS (Cascaded Style Sheet), Java Script, Node js etc
+
+What is Internet?
+Network of network. Internet is an infrastructure on which all the web applications run.
+
+All the systems in the world are interconnected(that's why we can communicate), all the systems are of different types but they all are working on a common thing called CPU which contains RAM, ROM, hard disks etc.
+Routers:
+During communications, data has to be tranferred from one system to another and there are more than one path between two systems so the device which directs the data packets is called a Router.
+Protocols:
+Set of conventions.
+Example , if one person extends a hand towards another for handshake then another would also be doing the same as extending the hand towards someone is a sign of hand shaking. So it is Protocol.
+So in language of computer science, every computer has different protocols obviously in the form of 0s and 1s , every computer has a different sets of 0s and 1s so it is their protocols(conventions).
+
+Two most common protocols used to get data from one point to another is  TCP(Transmission Control Protocol), IP(Internet Protocol).
+
+- IP Address : When any computer sends packet from itself to another server , it writes an address of remote server(server it is sending data to) on the packet which is called IP Address. Every system has its own IP Address.
+
+- 
