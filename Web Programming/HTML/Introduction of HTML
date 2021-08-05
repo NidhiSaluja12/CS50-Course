@@ -48,4 +48,48 @@ Host: www.example.com
 
 https://www.example.com/index.html : index.html is a file name.
 
+What is icognito mode?
+
+Incognito mode is private browsing that doesn't leave as many tracks. It can erase temporary data that is captured by the PC or device you're using. Deleting cookies — information saved on your web browser — is a great first step toward maintaining your privacy.
+
+
+You can see the development process of any website by using following process:
+
+    Open website in chrome --> View --> Developer --> Developement tool 
+
+
+curl :- Its only purpose is to connet with the URL
+    - it just only show the http command line
+   
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                            HTML
+
+
+HTML is not a programming language(no loops, no variables etc), it is a markup language.
+
+Basic HTML Program:
+
+
+<!DOCTYPE html>  // Document type declaration
+
+<html lang="en"> // open tag/ start tag ; lang = "en" -> attribute en - english
+    <head> // open heading tag
+        <title> // open title tag
+            hello, title 
+        </title> // close title tag
+
+    </head> // close heading tag
+    <body>  // open body tag
+        hello, body 
+    </body>  // close body tag
+</html> // close tag/ end tag
+    
+
+* phishing
+* #- unique identifier
+* . - class centered
 
