@@ -1,0 +1,23 @@
+Database: 
+Database is an organised collection of related data where the data is stored and organised to perform specific function.
+For example: Librarian mantains the data of all information related to the books available in library.
+
+DBMS:
+DBMS stands for Databae Management System.It is a collection of application programs which allow the user to organise, restore, retrieve information about data efficiently and effectively.
+Some popular DBMS are: MySQL, Oracle, MongoDB, Sybase etc 
+
+Advantages of DBMS:
+- Redundancy is controlled since data is stored in structured way.
+- provides multiple user interface
+- provides backup and recovery of data when required.
+- provide restrictions on unauthorized access to the database.
+
+-> Data Redundancy: Duplication of data in database.
+    Disadvantage:
+        - wastage of storage space
+        - integrity(accuracy and consistency of data stored in database) of the database is destroyed
+
+Types of relationships in database: 
+            i) One-to-One
+            ii)One-to-Many
+            iii)Many-to-Many
