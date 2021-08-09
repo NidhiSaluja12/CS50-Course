@@ -17,7 +17,61 @@ Advantages of DBMS:
         - wastage of storage space
         - integrity(accuracy and consistency of data stored in database) of the database is destroyed
 
-Types of relationships in database: 
+Types of relationships in database/cardinality: 
             i) One-to-One
             ii)One-to-Many
             iii)Many-to-Many
+
+One-to-One Relationship: One table has relationship with another table having same coloumn.
+    Each primary key relates to only one or no record in related table.
+Advantage: Helps in reducing number of tables.
+
+One-to-many:  One table has a relationship with another table that has primary and foreign key relations. The primary key table contains only one record that relates to none, one or many records in the related table.
+Advantage: Helps in reducing number of tables(many-side table can combined with relationshio table)
+
+Many-to-many Relationship: Each record in both the tables can relate to many numbers of records in another table.
+No reduction of tables
+
+# Normalisation and Denormalisation:
+
+NORMALISATION:
+    process of removing redundant data from database by splitting the table in a well-defined manner in order to mantain data integrity.
+
+Advantage: saves much of the storage space.
+Disadvantage: reduces the speed of complex queries.
+
+Types of normalisation:
+1. First Normal Form(1NF) 
+2. Second Normal Form(2NF)
+3. Third Normal Form(3NF)
+
+
+DE-NORMALISATION:
+    process of adding up redundant data on the table.
+
+Advantage: speed up complex queries and thus achieve better performance.
+Disadvantage: storage space wastage.
+
+
+
+RDBMS:
+RDBMS stands for Relational Database Management System.RDBMS is based on a relational model of data that is stored in databases in separate tables and they are related to the use of a common column. Data can be accessed easily from the relational database using Structured Query Language (SQL).
+
+
+ SQL: Structure Query Language 
+    It is a standard language used fir accessing and manipulating the database.
+
+It has fixed structure (table and relations) and is used to communicate between the user and the database.
+
+Features of SQL:
+
+- Domain specific language. : can only be used in RDBMS.
+- Declarative language(what to do?) : no procedure is required.
+- keys and constraint are used
+- operators used : like, between , in/exist, not in/not exist, conditional 
+- clauses used: distinct, order by, group by, from having 
+- aggregate function : min, max, count 
+** - Joins and nested Queries
+- PL SQL : Procedural language : triggers, function, cursor, procedures
+
+All the RDMS like MySQL, Sybase, Oracle, Informix, MS access, Postgres and SQL server uses SQL as their standard database.
