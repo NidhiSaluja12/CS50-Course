@@ -61,6 +61,12 @@ RDBMS stands for Relational Database Management System.RDBMS is based on a relat
  SQL: Structure Query Language 
     It is a standard language used fir accessing and manipulating the database.
 
+# Advantages of SQL:
+- easy to learn
+- almost every DBMS supports SQL
+- easier to manage database using SQL as no large amount of coding required.
+- simple SQL queries can be used to retrieve a large amount of data from the database very quickly and efficiently.
+
 It has fixed structure (table and relations) and is used to communicate between the user and the database.
 
 Features of SQL:
@@ -75,3 +81,38 @@ Features of SQL:
 - PL SQL : Procedural language : triggers, function, cursor, procedures
 
 All the RDMS like MySQL, Sybase, Oracle, Informix, MS access, Postgres and SQL server uses SQL as their standard database.
+
+SQL Statements:
+
+1. DDL - Data Definition Language : commands are used to define the structure that holds the data. These commands are auto-committed i.e. changes done by the DDL commands on the database are saved permanently.
+
+Commands of DDL:
+
+CREATE to create a new table or database.
+ALTER for alteration.
+TRUNCATE to delete data from the table.
+DROP to drop a table.
+RENAME to rename a table.
+
+2. DML - Data Manipulation Language : commands are used to manipulate the data of the database. These commands are not auto-committed and can be rolled back.
+
+Commands of DML:
+
+INSERT to insert a new row.
+UPDATE to update an existing row.
+DELETE to delete a row.
+MERGE for merging two rows or two tables.
+
+
+3. DCL - Data Control Language :  commands are used to control the visibility of the data in the database like revoke access permission for using data in the database.
+
+Commands of DCL:
+
+COMMIT to permanently save.
+ROLLBACK to undo the change.
+SAVEPOINT to save temporarily.
+
+DML Compiler: DML compiler translates DML statements in a query language into a low-level instruction and the generated instruction can be understood by Query Evaluation Engine.
+
+DDL interpreter: DDL Interpreter interprets the DDL statements and records the generated statements in the table containing metadata.
+
