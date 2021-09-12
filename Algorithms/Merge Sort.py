@@ -14,6 +14,7 @@ def Merge_sort(array, size):
     mid = size // 2
     left = array[:mid]
     right = array[mid:]
+    
     while len(left) < 1 and len(right) < 1:
         Merge_sort(left)
         Merge_sort(right)
@@ -21,6 +22,7 @@ def Merge_sort(array, size):
     l_len = len(left)
     r_len = len(right)
     i = j = k = 0
+    
     while i < l_len and j < r_len:
         if left[i] <= right[j]:
             array[k] = left[i]
