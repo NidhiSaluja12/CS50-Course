@@ -11,6 +11,7 @@ For i from 0 to size
 '''
 
 
+
 def LinearSearch(arr, n, s):
     result = False
     for i in range(n):
